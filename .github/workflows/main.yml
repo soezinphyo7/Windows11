@@ -6,17 +6,17 @@ on:
       duration:
         description: '🕐 Thời gian sử dụng'
         required: false
-        default: '6h'
+        default: '5h40m'
         type: choice
         options:
         - '1h'
         - '3h' 
-        - '6h'
+        - '5h40m'
 
 jobs:
   Premium-RDP-Setup:
     runs-on: windows-latest
-    timeout-minutes: 360
+    timeout-minutes: 340
     
     steps:
       # BANNER CHÀO MỪNG
